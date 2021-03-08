@@ -3,4 +3,4 @@ FPGA板上内存资源虽然速度较快，但总量十分有限。对于大规�
 
 本项目试图从HLS层面将HBM与图算法相结合,实现pagerank或bfs算法。
 
-本项目在ThunderGP的基础上做出一定的修改，使得它在u280上运行。
+本项目借助于ThunderGP，做出一定的修改，使得它在u280上运行。改动主要位于tmp_fpga_top中，其余参照项目thunderGP。
